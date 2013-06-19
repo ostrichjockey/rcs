@@ -1,0 +1,11 @@
+# an alternative hardstatus to display a bar at the bottom listing the
+# window names and highlighting the current windowname in blue.
+# this is only enabled if there is no hardstatus setting for the terminal
+hardstatus on
+hardstatus alwayslastline
+#hardstatus alwayslastline "%1`"
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "`
+
+altscreen on # clears the vim stuff from the screen after exiting
+#term xterm # fixes the CTRL arrow problem deleting stuff in screen vim
+
