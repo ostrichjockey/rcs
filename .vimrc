@@ -34,5 +34,6 @@ map <c-l> :ls<CR>
 :ab ioh #include <iostream><CR><left><left>
 :ab stdd using namespace std;<CR>
 :ab ppp printf("hit\n");
+:ab vardd var_dump("hit");<CR>die;
 ":ab mainc int main(void)<CR>{<CR><CR><CR><CR>}<bs><up>
 
