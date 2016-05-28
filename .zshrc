@@ -37,3 +37,6 @@ bindkey "^[[A" up-line-or-beginning-search
 bindkey "^[[B" down-line-or-beginning-search
 
 alias ws='cd /local/mnt/workspace/cporter'
+
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
