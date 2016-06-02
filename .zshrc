@@ -32,6 +32,7 @@ autoload -Uz up-line-or-beginning-search
 autoload -Uz down-line-or-beginning-search
 zle -N up-line-or-beginning-search up-line-or-beginning-search
 zle -N down-line-or-beginning-search down-line-or-beginning-search
+bindkey -v
 bindkey "^[[A" up-line-or-beginning-search
 bindkey "^[[B" down-line-or-beginning-search
 
@@ -40,4 +41,6 @@ alias ws='cd /local/mnt/workspace/cporter'
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 
-bindkey -v
+xmodmap ~/.escape_caps
+xset -b
+
