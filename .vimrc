@@ -6,7 +6,7 @@ set expandtab
 
 "set paste
 "set autoindent
-"highlight Comment ctermfg=blue
+highlight Comment ctermfg=blue
 "highlight Number ctermfg=yellow
 "highlight String ctermfg=magenta
 
