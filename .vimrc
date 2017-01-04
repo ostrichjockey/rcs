@@ -28,6 +28,7 @@ map <c-h> :b#<CR>
 map <c-j> :bn<CR>
 map <c-k> :bp<CR>
 map <c-l> :ls<CR>
+map <c-p> :pwd<CR>
 
 "<bs><bs><space>
 :ab mainc int main(void)<CR>{<CR><CR><CR><CR>}<up><up><tab><bs>
