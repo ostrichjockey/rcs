@@ -3,6 +3,7 @@ set smartindent
 set tabstop=8
 set shiftwidth=8
 set expandtab
+set pastetoggle=<C-g>
 
 "set paste
 "set autoindent
