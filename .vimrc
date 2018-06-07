@@ -7,13 +7,14 @@ set pastetoggle=<C-g>
 
 "set paste
 "set autoindent
-highlight Comment ctermfg=blue
-"highlight Number ctermfg=yellow
-"highlight String ctermfg=magenta
+highlight Comment ctermfg=darkgrey
+highlight Number ctermfg=blue
+highlight String ctermfg=blue
 
 "set t_Co=256
 "colorscheme desert
 set hlsearch
+set colorcolumn=80
 
 " clipboard
 vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
